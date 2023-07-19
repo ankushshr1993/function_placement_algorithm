@@ -1,0 +1,6 @@
+
+master-automation,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 259.760/259.833/259.954/0.066 ms, pipe 2
+master-automation,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 109.986/110.049/110.120/0.053 ms
+master-automation,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 199.367/199.497/199.600/0.078 ms
+master-automation,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 278.428/278.514/278.598/0.073 ms, pipe 2
+master-automation,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 817ms,rtt min/avg/max/mdev = 0.065/0.084/0.107/0.016 ms

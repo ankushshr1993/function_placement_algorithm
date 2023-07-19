@@ -1,0 +1,38 @@
+
+master-automation
+master-automation,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 259.993/260.213/260.611/0.211 ms, pipe 2
+master-automation,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 803ms,rtt min/avg/max/mdev = 109.807/109.827/109.860/0.022 ms
+master-automation,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 199.762/199.844/200.096/0.126 ms
+master-automation,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 278.424/278.480/278.522/0.032 ms, pipe 2
+master-automation,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 820ms,rtt min/avg/max/mdev = 0.037/0.047/0.055/0.006 ms
+
+ping_metrics
+
+worker-node1
+worker-node1,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 821ms,rtt min/avg/max/mdev = 0.033/0.047/0.071/0.013 ms
+worker-node1,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 803ms,rtt min/avg/max/mdev = 109.751/109.862/110.048/0.104 ms
+worker-node1,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 199.758/199.819/199.847/0.031 ms
+worker-node1,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 278.459/278.486/278.519/0.021 ms, pipe 2
+worker-node1,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 259.945/260.094/260.339/0.133 ms, pipe 2
+
+worker-node2
+worker-node2,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 821ms,rtt min/avg/max/mdev = 0.039/0.056/0.085/0.017 ms
+worker-node2,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 259.954/260.073/260.192/0.101 ms, pipe 2
+worker-node2,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 199.788/199.908/199.981/0.067 ms
+worker-node2,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 278.495/278.511/278.530/0.012 ms, pipe 2
+worker-node2,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 803ms,rtt min/avg/max/mdev = 109.739/109.829/109.922/0.068 ms
+
+worker-node3
+worker-node3,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 819ms,rtt min/avg/max/mdev = 0.043/0.054/0.068/0.008 ms
+worker-node3,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 260.084/260.202/260.374/0.122 ms, pipe 2
+worker-node3,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 109.742/109.803/109.841/0.038 ms
+worker-node3,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 278.447/278.483/278.547/0.035 ms, pipe 2
+worker-node3,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 199.748/199.828/199.873/0.046 ms
+
+worker-node4
+worker-node4,10.156.0.38,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 816ms,rtt min/avg/max/mdev = 0.042/0.101/0.223/0.068 ms
+worker-node4,10.140.0.33,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 259.964/260.199/260.629/0.231 ms, pipe 2
+worker-node4,10.128.0.35,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 109.815/109.870/109.916/0.043 ms
+worker-node4,10.158.0.33,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 800ms,rtt min/avg/max/mdev = 199.738/199.823/199.950/0.070 ms
+worker-node4,10.152.0.33,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 278.376/278.451/278.510/0.060 ms, pipe 2
+
